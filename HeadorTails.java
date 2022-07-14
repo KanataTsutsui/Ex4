@@ -31,12 +31,12 @@ void Gamingmethod(){
             System.out.println("Heads: "+ Head +", Tails: "+ Tail);
             if(Head > Tail)
             {
-            System.out.println("You won!");
+            System.out.println(name+" won!");
             }
             
             else if(Head < Tail)
             {
-                System.out.println("You lose!");
+                System.out.println(name+" lose!");
             }
         }
     }
