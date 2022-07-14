@@ -21,6 +21,15 @@ void Gamingmethod(){
         i = 0; //initialization
 
             System.out.println("Heads: "+ Head +", Tails: "+ Tail);
+            if(Head > Tail)
+            {
+            System.out.println("You won!");
+            }
+            
+            else if(Head < Tail)
+            {
+                System.out.println("You lose!");
+            }
         }
     }
 }
